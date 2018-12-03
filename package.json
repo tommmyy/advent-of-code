@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/tommmyy/advent-of-code.git",
+  "author": "Tomáš Konrády <tomaskonrady@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "ramda-extension": "^0.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.7",
+    "prettier": "^1.14.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index day-1-frequency"
+  }
+}
