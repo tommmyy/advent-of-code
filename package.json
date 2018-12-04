@@ -6,6 +6,7 @@
   "author": "Tomáš Konrády <tomaskonrady@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "jest": "^23.6.0",
     "ramda": "^0.26.1",
     "ramda-extension": "^0.7.1"
   },
@@ -24,6 +25,7 @@
     "webpack-dev-server": "^3.1.9"
   },
   "scripts": {
-    "start": "nodemon ./src/index day-1-frequency"
+    "test": "jest",
+    "start": "nodemon ./src/index day1Frequency"
   }
 }
