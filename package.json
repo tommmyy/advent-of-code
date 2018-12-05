@@ -26,6 +26,6 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "nodemon ./src/index day1Frequency"
+    "start": "nodemon ./src/index day2"
   }
 }

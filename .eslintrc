@@ -1,4 +1,9 @@
 {
+    "parserOptions": {
+        "ecmaVersion": 6,
+	"sourceType": "module"
+	},
+	"env": { "jest": true, "node": true },
     "extends": "standard",
     "rules": {
         "indent": ["error", "tab"],
